@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://unlive666.github.io/meodecorflorist/</loc>
     <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://unlive666.github.io/meodecorflorist/images/sp_09_set_qua_hoa_tuoi_va_tung_thom.jpg</image:loc>
+      <image:title>Set Quà Đôi Hoa Hồng Pastel và Cây Tùng Thơm Noel LED — Mèo Decor &amp; Florist</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://unlive666.github.io/meodecorflorist/images/sp_08_bo_hoa_hong_pastel_boutique.jpg</image:loc>
+      <image:title>Bó Hoa Hồng Pastel &amp; Mao Lương Thiết Kế Hàn Quốc — Mèo Decor &amp; Florist</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://unlive666.github.io/meodecorflorist/images/sp_01_gau_hong_led_desk.jpg</image:loc>
+      <image:title>Cây Tùng Thơm Noel Sống Thật Gấu Hồng Ngọc Trai Đèn LED — Mèo Decor &amp; Florist</image:title>
+    </image:image>
   </url>
 </urlset>

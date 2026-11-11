@@ -1,11 +1,18 @@
 {
-  "name": "Mèo Decor & Florist — Cây Tùng Thơm Noel Tươi Thật",
-  "short_name": "Mèo Decor",
-  "start_url": "/",
+  "name": "Cây Tùng Thơm Noel Tươi Thật & Hoa Tươi Thiết Kế | Mèo Decor & Florist",
+  "short_name": "Mèo Decor & Florist",
+  "description": "Tiệm Hoa Tươi Thiết Kế Hàn Quốc & Cây Tùng Thơm Noel sống thật 100% thủ công kèm Đèn LED & Thiệp niêm sáp viết tay.",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#faf6f0",
-  "theme_color": "#18392b",
+  "background_color": "#fcf9f6",
+  "theme_color": "#1d362b",
   "icons": [
+    {
+      "src": "images/sp_09_set_qua_hoa_tuoi_va_tung_thom.jpg",
+      "sizes": "896x1200",
+      "type": "image/jpeg"
+    },
     {
       "src": "images/sp_01_gau_hong_led_desk.jpg",
       "sizes": "512x512",
