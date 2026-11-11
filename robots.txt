@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unlive666.github.io/meodecorflorist/sitemap.xml

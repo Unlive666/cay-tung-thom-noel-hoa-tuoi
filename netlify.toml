@@ -1,0 +1,47 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[images]
+  remote_images = ['https://img\.vietqr\.io/.*']
+
+# 1. Proxy API đơn hàng & cứu đơn về Cloud Gateway / Serverless Functions
+[[redirects]]
+  from = "/api/web-order"
+  to = "/.netlify/functions/order"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/abandoned-cart"
+  to = "/.netlify/functions/abandoned-cart"
+  status = 200
+  force = true
+
+# 2. Netlify Image CDN tự động nén AVIF/WebP siêu tốc
+[[redirects]]
+  from = "/cdn-img/*"
+  to = "/.netlify/images?url=/images/:splat&w=760&q=84"
+  status = 200
+  force = true
+
+# 3. Edge Caching & gom fbclid/utm_* vào chung cache key
+[[headers]]
+  for = "/"
+  [headers.values]
+    Netlify-Vary = "query=variant|qty"
+    Netlify-CDN-Cache-Control = "public, s-maxage=3600, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Netlify-Vary = "query=variant|qty"
+    Netlify-CDN-Cache-Control = "public, s-maxage=3600, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, immutable"
