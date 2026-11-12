@@ -11,8 +11,8 @@
   <meta name="description" content="Cây Tùng Thơm Noel sống thật 100% cao 40-45cm thơm tinh dầu bền 3 tháng &amp; Bó Hoa Hồng Pastel Hàn Quốc thiết kế thủ công tại Mèo Decor &amp; Florist. Kèm Đèn LED đom đóm, Thiệp niêm sáp viết tay. Giá từ 199k — Mua từ 2 sản phẩm Freeship Toàn Quốc!">
   <meta name="keywords" content="cây tùng thơm noel, cây thông noel tươi thật để bàn, mua cây tùng thơm ở đâu, tiệm hoa tươi thiết kế tphcm, bó hoa hồng pastel hàn quốc, set quà hoa tươi và tùng thơm, quà tặng giáng sinh ý nghĩa, mèo decor florist">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://tiemhoameodecor.netlify.app/">
-  <link rel="alternate" hreflang="vi-VN" href="https://tiemhoameodecor.netlify.app/">
+  <link rel="canonical" href="https://meodecorflorist.vercel.app/">
+  <link rel="alternate" hreflang="vi-VN" href="https://meodecorflorist.vercel.app/">
   <link rel="icon" type="image/jpeg" href="images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg">
   <link rel="apple-touch-icon" href="images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg">
   <link rel="manifest" href="manifest.json">
@@ -28,10 +28,10 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Mèo Decor &amp; Florist">
   <meta property="og:locale" content="vi_VN">
-  <meta property="og:url" content="https://tiemhoameodecor.netlify.app/">
+  <meta property="og:url" content="https://meodecorflorist.vercel.app/">
   <meta property="og:title" content="Cây Tùng Thơm Noel Tươi Thật &amp; Hoa Tươi Thiết Kế Hàn Quốc | Mèo Decor &amp; Florist">
   <meta property="og:description" content="Tiệm Hoa Tươi Pastel Hàn Quốc &amp; Cây Tùng Thơm Noel sống thật 100% tỏa hương tinh dầu thư giãn. Tặng Đèn LED vàng ấm &amp; Thiệp niêm sáp viết tay. Freeship từ 2 sản phẩm!">
-  <meta property="og:image" content="https://tiemhoameodecor.netlify.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg">
+  <meta property="og:image" content="https://meodecorflorist.vercel.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg">
   <meta property="og:image:width" content="896">
   <meta property="og:image:height" content="1200">
   <meta property="og:image:alt" content="Set Quà Đôi Bó Hoa Gingham Hồng Pastel và Cây Tùng Thơm Noel Gấu Hồng Đèn LED tại Mèo Decor &amp; Florist">
@@ -40,12 +40,90 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cây Tùng Thơm Noel Tươi Thật &amp; Hoa Tươi Thiết Kế | Mèo Decor &amp; Florist">
   <meta name="twitter:description" content="Bó Hoa Gingham Hồng Pastel, Bó Hoa Thỏ Bông &amp; Cây Tùng Thơm Noel sống thật 40-45cm bền 3 tháng. Tặng Đèn LED &amp; Thiệp sáp viết tay — Freeship từ 2 sản phẩm!">
-  <meta name="twitter:image" content="https://tiemhoameodecor.netlify.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg">
+  <meta name="twitter:image" content="https://meodecorflorist.vercel.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <!-- Meta Pixel & Conversions API Event Deduplication Bridge (Dynamic Pixel ID via /api/pixel-config or URL ?pixel_id=) -->
+  <meta name="meta-pixel-id" content="">
+  <script>
+    (function () {
+      window.__MEO_TRACK_META__ = function (eventName, params, options) {
+        if (typeof window.fbq === 'function' && window.__MEO_PIXEL_READY__) {
+          if (options && options.eventID) {
+            window.fbq('track', eventName, params || {}, { eventID: options.eventID });
+          } else {
+            window.fbq('track', eventName, params || {});
+          }
+        } else {
+          window.__MEO_FBQ_QUEUE__ = window.__MEO_FBQ_QUEUE__ || [];
+          window.__MEO_FBQ_QUEUE__.push([eventName, params || {}, options || null]);
+        }
+      };
+
+      function bootMetaPixel(pixelId) {
+        var cleanId = String(pixelId || '').trim();
+        if (!/^\d{10,22}$/.test(cleanId) || window.__MEO_PIXEL_READY__) return;
+        window.__MEO_PIXEL_READY__ = true;
+        window.__MEO_PIXEL_ID__ = cleanId;
+
+        if (!window.fbq) {
+          var n = window.fbq = function () {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+          };
+          if (!window._fbq) window._fbq = n;
+          n.push = n;
+          n.loaded = true;
+          n.version = '2.0';
+          n.queue = [];
+          var t = document.createElement('script');
+          t.async = true;
+          t.setAttribute('fetchpriority', 'low');
+          t.src = 'https://connect.facebook.net/en_US/fbevents.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        }
+
+        window.fbq('init', cleanId);
+        window.fbq('track', 'PageView');
+
+        var pending = window.__MEO_FBQ_QUEUE__ || [];
+        while (pending.length) {
+          var item = pending.shift();
+          if (item[2] && item[2].eventID) {
+            window.fbq('track', item[0], item[1], { eventID: item[2].eventID });
+          } else {
+            window.fbq('track', item[0], item[1]);
+          }
+        }
+      }
+
+      try {
+        var qs = new URLSearchParams(window.location.search);
+        var qPid = qs.get('pixel_id');
+        if (qPid && /^\d{10,22}$/.test(qPid)) {
+          localStorage.setItem('meodecor_meta_pixel_id', qPid);
+        }
+        var metaTag = document.querySelector('meta[name="meta-pixel-id"]');
+        var presetId = (metaTag && metaTag.content) || localStorage.getItem('meodecor_meta_pixel_id') || '';
+        if (/^\d{10,22}$/.test(presetId)) {
+          bootMetaPixel(presetId);
+        }
+        fetch('/api/pixel-config', { method: 'GET' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (d) {
+            if (d && d.pixel_id && /^\d{10,22}$/.test(String(d.pixel_id))) {
+              try { localStorage.setItem('meodecor_meta_pixel_id', String(d.pixel_id)); } catch (e) {}
+              bootMetaPixel(d.pixel_id);
+            }
+          })
+          .catch(function () {});
+      } catch (e) {}
+    })();
+  </script>
 
   <!-- Schema.org Structured Data (Google Site Name + Florist Local SEO + 10-Offer Product + Video + FAQ) -->
   <script type="application/ld+json">
@@ -54,29 +132,29 @@
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://tiemhoameodecor.netlify.app/#website",
+        "@id": "https://meodecorflorist.vercel.app/#website",
         "name": "Mèo Decor & Florist",
         "alternateName": [
           "Tiệm Hoa Mèo Decor & Florist",
           "Mèo Decor Florist — Hoa Tươi Thiết Kế & Cây Tùng Thơm Noel"
         ],
-        "url": "https://tiemhoameodecor.netlify.app/",
+        "url": "https://meodecorflorist.vercel.app/",
         "inLanguage": "vi-VN",
         "publisher": {
-          "@id": "https://tiemhoameodecor.netlify.app/#florist"
+          "@id": "https://meodecorflorist.vercel.app/#florist"
         }
       },
       {
         "@type": "Florist",
-        "@id": "https://tiemhoameodecor.netlify.app/#florist",
+        "@id": "https://meodecorflorist.vercel.app/#florist",
         "name": "Mèo Decor & Florist — Hoa Tươi Thiết Kế & Cây Tùng Thơm Noel",
         "alternateName": "Mèo Decor & Florist",
         "image": [
-          "https://tiemhoameodecor.netlify.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_10_bo_hoa_tho_bong_ly_kep_hong.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_06_xe_hoa_meo_decor_clean.jpg"
+          "https://meodecorflorist.vercel.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_10_bo_hoa_tho_bong_ly_kep_hong.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_06_xe_hoa_meo_decor_clean.jpg"
         ],
-        "url": "https://tiemhoameodecor.netlify.app/",
+        "url": "https://meodecorflorist.vercel.app/",
         "telephone": "+84866786076",
         "priceRange": "199.000đ - 569.000đ",
         "areaServed": "VN",
@@ -104,15 +182,15 @@
       },
       {
         "@type": "Product",
-        "@id": "https://tiemhoameodecor.netlify.app/#product",
+        "@id": "https://meodecorflorist.vercel.app/#product",
         "name": "Cây Tùng Thơm Noel Tươi Thật (40-45cm) & Hoa Tươi Thiết Kế Hàn Quốc — Mèo Decor & Florist",
         "image": [
-          "https://tiemhoameodecor.netlify.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_08_bo_hoa_gingham_hong_pastel.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_10_bo_hoa_tho_bong_ly_kep_hong.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_11_hop_hoa_cuc_mau_don_hong.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_12_bo_hoa_ly_nau_hong_do_nhung.jpg",
-          "https://tiemhoameodecor.netlify.app/images/sp_01_gau_hong_led_desk.jpg"
+          "https://meodecorflorist.vercel.app/images/sp_09_set_qua_hoa_gingham_va_tung_thom.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_08_bo_hoa_gingham_hong_pastel.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_10_bo_hoa_tho_bong_ly_kep_hong.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_11_hop_hoa_cuc_mau_don_hong.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_12_bo_hoa_ly_nau_hong_do_nhung.jpg",
+          "https://meodecorflorist.vercel.app/images/sp_01_gau_hong_led_desk.jpg"
         ],
         "description": "Bộ sưu tập Cây Tùng Thơm Noel sống thật 100% cao 40-45cm tỏa hương tinh dầu tự nhiên bền 2-3 tháng và Hoa Tươi Thiết Kế thủ công (Bó Gingham Hồng, Bó Thỏ Bông Ly Kép, Hộp Hoa Cúc Mẫu Đơn, Bó Ly Nâu Terracotta) kèm Đèn LED đom đóm & Thiệp niêm sáp viết tay.",
         "sku": "MDF-ATELIER-2026",
@@ -122,7 +200,7 @@
         },
         "offers": {
           "@type": "AggregateOffer",
-          "url": "https://tiemhoameodecor.netlify.app/#dat-hang",
+          "url": "https://meodecorflorist.vercel.app/#dat-hang",
           "priceCurrency": "VND",
           "lowPrice": "199000",
           "highPrice": "569000",
@@ -211,9 +289,9 @@
         "@type": "VideoObject",
         "name": "Cận Cảnh Bật Đèn LED Cây Tùng Thơm Noel Sống Thật Gấu Hồng ASMR — Mèo Decor & Florist",
         "description": "Video thực tế quay cận cảnh tán lá Cây Tùng Thơm Noel sống thật 100% tỏa hương tinh dầu, trang trí gấu bông hồng ngọc trai, cam sấy quế thơm và đèn LED đom đóm vàng ấm.",
-        "thumbnailUrl": "https://tiemhoameodecor.netlify.app/images/sp_01_gau_hong_led_desk.jpg",
+        "thumbnailUrl": "https://meodecorflorist.vercel.app/images/sp_01_gau_hong_led_desk.jpg",
         "uploadDate": "2026-11-11T08:00:00+07:00",
-        "contentUrl": "https://tiemhoameodecor.netlify.app/images/clip1_asmr_bat_den_tung_thom_gau_hong.mp4"
+        "contentUrl": "https://meodecorflorist.vercel.app/images/clip1_asmr_bat_den_tung_thom_gau_hong.mp4"
       },
       {
         "@type": "FAQPage",
@@ -2768,8 +2846,39 @@
       let currentVariant = 'gau_hong';
       let currentQty = 1;
       let orderSubmitted = false;
+      let checkoutInitiatedTracked = false;
       let lastOrderCopyText = '';
       let abandonedTimer = null;
+
+      function getMetaCookie(cookieName) {
+        const match = document.cookie.match(new RegExp('(?:^|; )' + cookieName + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : '';
+      }
+
+      function getMetaClickId() {
+        const fbc = getMetaCookie('_fbc');
+        if (fbc) return fbc;
+        try {
+          const fbclid = new URLSearchParams(window.location.search).get('fbclid');
+          if (fbclid) return `fb.1.${Date.now()}.${fbclid}`;
+        } catch {}
+        return '';
+      }
+
+      function trackMetaCommerce(eventName, variantKey, qty, eventID) {
+        if (typeof window.__MEO_TRACK_META__ !== 'function') return;
+        const p = computePricing(variantKey, qty);
+        const payload = {
+          content_ids: [variantKey],
+          content_name: p.item.label,
+          content_type: 'product',
+          content_category: p.item.isFloral ? 'Fresh Flowers & Gift Sets' : 'Fresh Christmas Cypress',
+          num_items: p.effQty,
+          value: p.total,
+          currency: 'VND'
+        };
+        window.__MEO_TRACK_META__(eventName, payload, eventID ? { eventID } : undefined);
+      }
 
       const form = document.getElementById('orderForm');
       const qtyOutput = document.getElementById('qtyOutput');
@@ -2949,8 +3058,8 @@
         });
 
         const endpoints = [
-          'https://dua-sap-chatbot.onrender.com/api/meo-abandoned-cart',
-          '/api/abandoned-cart'
+          '/api/abandoned-cart',
+          'https://dua-sap-chatbot.onrender.com/api/meo-abandoned-cart'
         ];
         for (const ep of endpoints) {
           try {
@@ -2967,9 +3076,9 @@
       async function postOrderWithFallbacks(payloadObj) {
         const body = JSON.stringify(payloadObj);
         const endpoints = [
-          'https://dua-sap-chatbot.onrender.com/api/meo-order',
+          '/api/order',
           '/api/web-order',
-          '/.netlify/functions/order',
+          'https://dua-sap-chatbot.onrender.com/api/meo-order',
           'https://meo-decor-chatbot.onrender.com/api/web-order'
         ];
         for (const url of endpoints) {
@@ -3074,6 +3183,7 @@
           currentVariant = btn.dataset.pickVariant;
           currentQty = Number(btn.dataset.pickQty || 1);
           syncUI();
+          trackMetaCommerce('AddToCart', currentVariant, currentQty);
           document.getElementById('dat-hang').scrollIntoView({ behavior: 'smooth' });
         });
       });
@@ -3085,6 +3195,7 @@
             currentQty = 2;
           }
           syncUI();
+          trackMetaCommerce('ViewContent', currentVariant, currentQty);
         });
       });
 
@@ -3148,6 +3259,10 @@
       phoneInput.addEventListener('blur', () => {
         if (phoneInput.value) {
           if (validatePhone()) {
+            if (!checkoutInitiatedTracked) {
+              checkoutInitiatedTracked = true;
+              trackMetaCommerce('InitiateCheckout', currentVariant, currentQty);
+            }
             clearTimeout(abandonedTimer);
             abandonedTimer = setTimeout(sendAbandonedCartBeacon, 6000);
           }
@@ -3203,10 +3318,16 @@
 
         const apiRes = await postOrderWithFallbacks({
           orderId: fallbackId,
+          event_id: fallbackId,
+          fbp: getMetaCookie('_fbp'),
+          fbc: getMetaClickId(),
+          event_source_url: window.location.href,
+          client_user_agent: navigator.userAgent || '',
           name: rawName,
           phone: cleanPhone,
           address: rawAddr,
           variant: p.item.label,
+          variant_key: currentVariant,
           quantity: p.effQty,
           card_message: rawCard,
           payment_method: payMethod,
@@ -3214,6 +3335,7 @@
         });
 
         const finalOrderId = (apiRes && apiRes.order && apiRes.order.order_id) || fallbackId;
+        trackMetaCommerce('Purchase', currentVariant, p.effQty, finalOrderId);
         orderSubmitted = true;
         clearTimeout(abandonedTimer);
 
@@ -3273,6 +3395,7 @@
       } catch {}
 
       syncUI();
+      trackMetaCommerce('ViewContent', currentVariant, currentQty);
     })();
   </script>
 </body>

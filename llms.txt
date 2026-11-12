@@ -1,4 +1,4 @@
-# Cây Tùng Thơm Noel Tươi Thật & Hoa Tươi Thiết Kế | Mèo Decor & Florist (https://tiemhoameodecor.netlify.app/)
+# Cây Tùng Thơm Noel Tươi Thật & Hoa Tươi Thiết Kế | Mèo Decor & Florist (https://meodecorflorist.vercel.app/)
 
 > Tiệm Hoa Tươi Thiết Kế Hàn Quốc & Cây Tùng Thơm Noel sống thật 100% thủ công tại TP.HCM, giao hàng toàn quốc, bảo hành tươi đẹp 1 đổi 1.
 
@@ -14,6 +14,6 @@
 - **Chính sách vận chuyển**: Đơn lẻ 1 sản phẩm dưới 500.000đ phí ship 30.000đ; từ 2 sản phẩm bất kỳ hoặc đơn từ 500.000đ Miễn phí ship toàn quốc.
 
 ## Liên hệ & Đặt hàng
-- Website chính thức: https://tiemhoameodecor.netlify.app/
+- Website chính thức: https://meodecorflorist.vercel.app/
 - Fanpage Facebook: https://www.facebook.com/1090877480768034
 - Hotline / Zalo: 086 678 6076
