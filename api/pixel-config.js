@@ -12,7 +12,7 @@ module.exports = async function handler(req, res) {
     return res.status(204).end();
   }
 
-  const envPixel = (process.env.META_PIXEL_ID || '').trim();
+  const envPixel = (process.env.META_PIXEL_ID || '915190564005655').trim();
   if (/^\d{10,22}$/.test(envPixel)) {
     return res.status(200).json({ ok: true, pixel_id: envPixel, source: 'vercel_env' });
   }
