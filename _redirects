@@ -1,0 +1,2 @@
+/api/web-order https://dua-sap-chatbot.onrender.com/api/meo-order 200
+/api/abandoned-cart https://dua-sap-chatbot.onrender.com/api/meo-abandoned-cart 200
